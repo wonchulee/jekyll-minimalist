@@ -20,7 +20,11 @@ email) and few minutes.
 1. Go to **Settings** of your new repository and rename it to
    `USERNAME.github.io`, where `USERNAME` is your username on GitHub.
 1. Check (on **Settings** page) that **GitHub Pages** is enabled.
-1. Your site should be available at `http://USERNAME.github.io/`.
+1. Your site should be available at:
+
+```
+http://USERNAME.github.io/
+```
 
 # Add your pages
 
@@ -37,8 +41,13 @@ This site is about nothing.
 ```
 
 It is important to use front matter with `title` in every file. The new page
-should be available at `http://USERNAME.github.io/about` (based on its
-file name).
+should be available at: 
+
+```
+http://USERNAME.github.io/about
+``` 
+
+(based on its file name).
 
 # Custom domain (optional)
 
@@ -57,7 +66,11 @@ www.romanzolotarev.com. 300 IN  CNAME romanzolotarev.github.io.
 ```
 
 Now your site should be available at your domain name. In case of those
-examples at `http://www.romanzolotarev.com/`.
+examples at: 
+
+```
+http://www.romanzolotarev.com/
+```
 
 # Install on your computer (optional)
 
