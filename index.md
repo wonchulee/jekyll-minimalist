@@ -5,12 +5,29 @@ title: Jekyll Minimalist
 
 by [Roman Zolotarev](https://www.romanzolotarev.com/)
 
-This is an minimalist website boilerplate powered by [GitHub Pages][pages].
-There are just [three small files][source].
+This website is a minimalist boilerplate powered by [GitHub Pages][pages].
 
-You can create your own website like this in few minutes without installing
-anything or touching command line. All you need is your GitHub account (or
-email) and few minutes.
+**It is not a Jekyll theme**. 
+
+The goal of this project is to demonstrate
+meaningful defaults of Jekyll, GitHub Pages, and modern browsers. [Websites we
+build today look virtually identical][jongold], but don't we want to stand
+out?
+
+Create your [standalone website](https://www.romanzolotarev.com/standalone/) in
+few minutes without installing anything or touching the command line. All you
+need is your GitHub account (or email) and few minutes.
+
+Build it from scratch. Make it unique. Design it for your needs. Express
+yourself in HTML and CSS, but [do not overdo it][oatmeal], please. Make the web
+diverse and clean place.
+
+Read the source code of this website. It is just [three small files][source].
+
+If you are looking for a theme, I would recommend
+
+- [Minima](https://github.com/jekyll/minima) by Parker Moore, 
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes) by Michael Rose.
 
 # Quick Start
 
@@ -37,15 +54,15 @@ http://USERNAME.github.io/
 title: About
 ---
 
-This site is about nothing.
+This site is clean and beautiful.
 ```
 
 It is important to use front matter with `title` in every file. The new page
-should be available at: 
+should be available at:
 
 ```
 http://USERNAME.github.io/about
-``` 
+```
 
 (based on its file name).
 
@@ -57,16 +74,15 @@ Add `CNAME` file to your repository with your domain name. For example:
 www.romanzolotarev.com
 ```
 
-Then add `CNAME` record to DNS zone of your domain that points to
+Then add `CNAME` record to DNS zone for your domain that points to
 `USERNAME.github.io`. For example:
 
 ```
 ;; CNAME Records
-www.romanzolotarev.com. 300 IN  CNAME romanzolotarev.github.io.
+www.romanzolotarev.com. 300 IN CNAME romanzolotarev.github.io.
 ```
 
-Now your site should be available at your domain name. In case of those
-examples at: 
+Now your site should be available via your domain name. In case of those examples at:
 
 ```
 http://www.romanzolotarev.com/
@@ -76,7 +92,7 @@ http://www.romanzolotarev.com/
 
 GitHub Pages uses Jekyll to do all this magic. If you are familiar with git,
 then you may want to install GitHub Pages (with Jekyll) on your computer. So
-you will be able to edit your pages locally (e.g.  when you are offline) and
+you will be able to edit your pages locally (e.g. when you are offline) and
 view your site locally before publishing.
 
 For example to install on Mac run this command:
@@ -100,6 +116,8 @@ regenerate HTML files, just reload the page in the browser to see changes.
 [Learn more about Jekyll][jekyll].
 
 [jekyll]: https://jekyllrb.com/docs/home/
-[pages]: https://pages.github.com
-[source]: https://github.com/romanzolotarev/jekyll-minimalist
+[jongold]: https://mobile.twitter.com/jongold/status/694591217523363840
 [md]: https://guides.github.com/features/mastering-markdown/
+[pages]: https://pages.github.com/
+[source]: https://github.com/romanzolotarev/jekyll-minimalist
+[oatmeal]: http://theoatmeal.com/comics/design_hell
