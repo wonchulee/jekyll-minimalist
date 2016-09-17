@@ -9,10 +9,9 @@ This website is a minimalist boilerplate powered by [GitHub Pages][pages].
 
 **It is not a Jekyll theme**. 
 
-The goal of this project is to demonstrate
-meaningful defaults of Jekyll, GitHub Pages, and modern browsers. [Websites we
-build today look virtually identical][jongold], but don't we want to stand
-out?
+The goal of this project is to demonstrate meaningful defaults of Jekyll,
+GitHub Pages, and modern browsers. [Websites we build today look virtually
+identical][jongold], but don't we want to stand out?
 
 Create your [standalone website](https://www.romanzolotarev.com/standalone/) in
 few minutes without installing anything or touching the command line. All you
