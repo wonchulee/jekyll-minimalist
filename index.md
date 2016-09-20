@@ -30,7 +30,7 @@ If you are looking for a theme, I would recommend
 - [Minima](https://github.com/jekyll/minima) by Parker Moore, 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes) by Michael Rose.
 
-# Quick Start
+## Quick Start
 
 1. [View source of this site on GitHub][source].
 1. Click on **Fork** button.
@@ -44,7 +44,7 @@ If you are looking for a theme, I would recommend
 http://USERNAME.github.io/
 ```
 
-# Add your pages
+## Add your pages
 
 1. Click on **Create new file** in your new repository.
 1. Type-in file name, e.g. `about.md`
@@ -67,7 +67,7 @@ http://USERNAME.github.io/about
 
 (based on its file name).
 
-# Custom domain (optional)
+## Custom domain (optional)
 
 Add `CNAME` file to your repository with your domain name. For example:
 
@@ -89,7 +89,7 @@ Now your site should be available via your domain name. In case of those example
 http://www.romanzolotarev.com/
 ```
 
-# Install on your computer (optional)
+## Install on your computer (optional)
 
 GitHub Pages uses Jekyll to do all this magic. If you are familiar with git,
 then you may want to install GitHub Pages (with Jekyll) on your computer. So
