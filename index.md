@@ -99,7 +99,14 @@ view your site locally before publishing.
 For example to install on Mac run this command:
 
 ```
-gem install github-pages
+# Install bundler
+gem install bundler
+
+# and then jekyll plus jekyll-livereload
+bundle install
+
+# Start local server
+bundle exec jekyll serve --livereload --increment
 ```
 
 Then clone your repository and run Jekyll locally.
