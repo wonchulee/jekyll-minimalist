@@ -6,9 +6,6 @@ by [Roman Zolotarev](https://www.romanzolotarev.com/)
 
 This website is a minimalist boilerplate powered by [GitHub Pages][pages].
 
-Check out [Jekyll Newsletter](https://www.romanzolotarev.com/jekyll-newsletter/)
----a companion website--- if you want to setup RSS-to-mail campaigns.
-
 **It is not a Jekyll theme**. 
 
 The goal of this project is to demonstrate meaningful defaults of Jekyll,
